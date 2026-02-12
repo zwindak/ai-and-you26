@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Conference 2026</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f8ff;
+            color: #1a2a44;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background-color: #4da3ff;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1e7be6;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1e3c72;
+        }
+
+        /* Speakers Section */
+        .speakers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .speaker-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .speaker-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .speaker-card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .speaker-card p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Agenda Section */
+        .agenda-list {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .agenda-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #d9e4ff;
+            font-size: 1.1rem;
+        }
+
+        .agenda-item:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header style="
+    background: url('headerpic2.png?auto=format&fit=crop&w=1600&q=80') 
+                center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+">
+
+    <!-- Overlay for readability -->
+    <div style="
+        background: rgba(0, 32, 80, 0.55);
+        padding: 60px 20px;
+        border-radius: 10px;
+        display: inline-block;
+    ">
+        <h1 style="font-size: 3rem; margin-bottom: 10px;">AI Conference 2026</h1>
+        <p style="font-size: 1.2rem; opacity: 0.95;">
+            Exploring the Future of Artificial Intelligence for Families, Businesses, and Society
+        </p>
+
+        <a class="btn" 
+           href="https://images.quicket.co.za/0826883_0.png" 
+           target="_blank"
+           style="
+                display:inline-block;
+                margin-top:20px;
+                padding:14px 28px;
+                background-color:#4da3ff;
+                color:white;
+                text-decoration:none;
+                font-size:1.1rem;
+                border-radius:6px;
+                transition:0.3s;
+           "
+           onmouseover="this.style.backgroundColor='#1e7be6'"
+           onmouseout="this.style.backgroundColor='#4da3ff'">
+            Book Your Seat
+        </a>
+    </div>
+</header>
+
+<section id="where-when" style="padding:50px 20px; max-width:1100px; margin:auto;">
+    <h2 style="text-align:center; color:#1e3c72; margin-bottom:30px;">Where & When</h2>
+    <div style="
+        background:white;
+        padding:30px;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.08);
+        text-align:center;
+        font-size:1.2rem;
+        line-height:1.8;
+    ">
+        <strong>Venue:</strong> Oosterlig Church, Pretoria East<br>
+        <strong>Date:</strong> Saturday, 21 February 2026<br><br>
+
+        <a href="https://maps.app.goo.gl/xaJ4T3r8aVxpjawD7"
+           style="
+                display:inline-block;
+                margin-top:15px;
+                padding:12px 24px;
+                background-color:#4da3ff;
+                color:white;
+                text-decoration:none;
+                border-radius:6px;
+                font-size:1rem;
+                transition:0.3s;
+           "
+           onmouseover="this.style.backgroundColor='#1e7be6'"
+           onmouseout="this.style.backgroundColor='#4da3ff'">
+            View on Google Maps
+        </a>
+    </div>
+</section>
+
+<section id="speakers">
+    <h2>Speakers</h2>
+    <div class="speakers">
+
+        <!-- Speaker Template (duplicate as needed) -->
+        <div class="speaker-card">
+            <img src="https://media.licdn.com/dms/image/v2/C4D03AQHepPyfmp9X3Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516764341704?e=1772668800&v=beta&t=dIz7QpKRWPWrmcunI9zut_upyZ5g_DX7FCLz4xHxH-k" alt="Speaker Photo">
+            <h3>Graham Budd</h3>
+            <p>Director of the Faraday Institute, former COO of Arm, Director of Oxbotica</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="https://media.licdn.com/dms/image/v2/C4E03AQGNHwEfEu94MA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1640113872961?e=1772668800&v=beta&t=Rbr4_ycdNVYknPcul1PEuRQ-7J2YbVLVwgd-CcgGpeU" alt="Speaker Photo">
+            <h3>Luch Calcott</h3>
+            <p>Strategy and Special Projects Associate, Google Deepmind</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="https://media.licdn.com/dms/image/v2/C4D03AQGOGgv2Zw8mzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516559604153?e=1772668800&v=beta&t=a5ifYYtd-JsAHWHeBx7aHOE2zsLvmq13Zo1jEWfU2O4" alt="Speaker Photo">
+            <h3>Theo Watson</h3>
+            <p>Senior Corporate Councel at Microsoft, Ethics and AI SME</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQEF6jE8cZokVA/profile-displayphoto-scale_400_400/B4DZreBnmGGkAg-/0/1764661560251?e=1772668800&v=beta&t=8kWqttspJRThqoLz_1gxv5cBJH5-IRsGifDXnO7nvwI" alt="Speaker Photo">
+            <h3>Johan Klut</h3>
+            <p>Independent Advisor, AI and Digital Transformation Strategist, Mentor, former Microsoft Digital Advisor</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="https://1drv.ms/f/c/dc68d50c90e2ccef/IgCAhSEijRjWRqflSkyaH2AZAViIy3EIgjV6gkDZG7cjkpg?e=QdTTYi/phillipc.png" alt="Speaker Photo">
+            <h3>Phillip Calcott</h3>
+            <p>Physisist, Astronomer, Philanthropist</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="headerpic2.png" alt="Speaker Photo">
+            <h3>Other</h3>
+            <p>Bio</p>
+        </div>
+    </div>
+</section>
+
+<section id="agenda">
+    <h2>Agenda</h2>
+    <div class="agenda-list">
+        <div class="agenda-item">1. Intro to AI</div>
+        <div class="agenda-item">2. AI – The Present State and Future Possibilities</div>
+        <div class="agenda-item">3. How Will AI Affect My Children and Their Education?</div>
+        <div class="agenda-item">4. How Will AI Affect My Career/Business?</div>
+        <div class="agenda-item">5. AI Prompting Boot Camp and Workflow Demo</div>
+        <div class="agenda-item">6. AI and Medicine</div>
+        <div class="agenda-item">7. AI, Transport and Robotics</div>
+        <div class="agenda-item">8. What Are the Ethical Implications of AI?</div>
+        <div class="agenda-item">9. How Should We Feel About the Predictions of AI Doomers?</div>
+        <div class="agenda-item">10. Panel Discussion</div>
+    </div>
+</section>
+
+<footer>
+    © AI and You 2026 Conference – All Rights Reserved
+</footer>
+
+</body>
+</html>
